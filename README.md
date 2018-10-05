@@ -8,7 +8,7 @@ Simple classe, trait and interface for implement enum in PHP
 composer require gollumsf/enum
 ```
 
-## Usage:
+## Usages:
 
 ### Basic:
 
@@ -30,7 +30,7 @@ var_dump(MyEnum::getEnums());
 //   ["KEY_4"]=> string(6) "value4"
 // }
 
-var_dump(MyEnum::getLabels());
+var_dump(MyEnum::getKey());
 // array(4) {
 //   [0]=> string(4) "KEY_1"
 //   [1]=> string(4) "KEY_2"
@@ -45,6 +45,20 @@ var_dump(MyEnum::getValues());
 //   [2]=> string(6) "value3"
 //   [3]=> string(6) "value4"
 // }
+
+var_dump(MyEnum::isValid('NO_VALUE'));
+// bool(false)
+var_dump(MyEnum::isValid(MyEnum::KEY_1));
+// bool(true)
+
+var_dump(MyEnum::isValidKey('NO_KEY'));
+// bool(false)
+var_dump(MyEnum::isValidKey('KEY_1'));
+// bool(true)
+
+var_dump(MyEnum::search('value1'));
+// string(5) "KEY_1"
+
 ```
 
 ### Without extends or extends other class:
@@ -56,7 +70,7 @@ namespace App\MyNamespace;
 use GollumSF\Enum\EnumInterface;
 use GollumSF\Enum\EnumTrait;
 
-class MyEnum implements EnumInterface {
+class MyEnum extends OtherClass implements EnumInterface {
 	
 	use EnumTrait;
 	

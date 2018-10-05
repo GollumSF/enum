@@ -13,12 +13,23 @@ trait EnumTrait {
 		return self::$enums;
 	}
 	
-	public static function getLabels(): array {
+	public static function getKeys(): array {
 		return array_keys(self::getEnums());
 	}
 	
 	public static function getValues(): array {
 		return array_values(self::getEnums());
 	}
-
+	
+	public static function isValid($value): bool {
+		return in_array($value, static::getEnums(), true);
+	}
+	
+	public static function isValidKey(string $key): bool {
+		return \array_key_exists($key, static::getEnums());
+	}
+	
+	public static function search($value): string {
+		return \array_search($value, static::getEnums(), true);
+	}
 }
