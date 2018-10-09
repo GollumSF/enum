@@ -1,5 +1,10 @@
 # Enum
 
+[![Build Status](https://travis-ci.org/GollumSF/enum.svg?branch=master)](https://travis-ci.org/GollumSF/enum)
+[![License](https://poser.pugx.org/gollumsf/enum/license)](https://packagist.org/packages/gollumsf/enum)
+[![Latest Stable Version](https://poser.pugx.org/gollumsf/enum/v/stable)](https://packagist.org/packages/gollumsf/enum)
+[![Latest Unstable Version](https://poser.pugx.org/gollumsf/enum/v/unstable)](https://packagist.org/packages/gollumsf/enum)
+
 Simple classe, trait and interface for implement enum in PHP 
 
 ## Installation:
