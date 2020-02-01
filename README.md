@@ -1,5 +1,5 @@
 # Enum
-[![Build Status](https://travis-ci.com/GollumSF/enum.svg?branch=master)](https://travis-ci.com/GollumSF/enum)
+[![Build Status](https://travis-ci.org/GollumSF/enum.svg?branch=master)](https://travis-ci.org/GollumSF/enum)
 [![Coverage](https://coveralls.io/repos/github/GollumSF/enum/badge.svg?branch=master)](https://coveralls.io/github/GollumSF/enum)
 [![License](https://poser.pugx.org/gollumsf/enum/license)](https://packagist.org/packages/gollumsf/enum)
 [![Latest Stable Version](https://poser.pugx.org/gollumsf/enum/v/stable)](https://packagist.org/packages/gollumsf/enum)
