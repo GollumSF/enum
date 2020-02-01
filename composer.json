@@ -19,10 +19,10 @@
         "wiki": "https://github.com/GollumSF/rest-bundle/blob/master/README.md"
     },
     "require" : {
-        "php": "^7.0"
+        "php": "^7.1"
     },
     "require-dev": {
-        "phpunit/phpunit": "^6"
+        "phpunit/phpunit": "^7"
     },
     "autoload" : {
         "psr-4" : {
