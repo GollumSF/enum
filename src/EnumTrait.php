@@ -24,7 +24,11 @@ trait EnumTrait {
 		return \array_key_exists($key, static::getEnums());
 	}
 	
-	public static function search($value): string {
-		return \array_search($value, static::getEnums(), true);
+	public static function search($value): ?string {
+		$enums = static::getEnums();
+		if (in_array($value, $enums)) {
+			return  \array_search($value, $enums, true);
+		}
+		return null;
 	}
 }
