@@ -1,5 +1,12 @@
 # Enum
-[![Build Status](https://travis-ci.org/GollumSF/enum.svg?branch=master)](https://travis-ci.org/GollumSF/enum)
+
+[![Build Status](https://github.com/GollumSF/enum/actions/workflows/php_7.1.yml/badge.svg?branch=master)](https://github.com/GollumSF/enum/actions)
+[![Build Status](https://github.com/GollumSF/enum/actions/workflows/php_7.2.yml/badge.svg?branch=master)](https://github.com/GollumSF/enum/actions)
+[![Build Status](https://github.com/GollumSF/enum/actions/workflows/php_7.3.yml/badge.svg?branch=master)](https://github.com/GollumSF/enum/actions)
+[![Build Status](https://github.com/GollumSF/enum/actions/workflows/php_7.4.yml/badge.svg?branch=master)](https://github.com/GollumSF/enum/actions)
+[![Build Status](https://github.com/GollumSF/enum/actions/workflows/php_8.0.yml/badge.svg?branch=master)](https://github.com/GollumSF/enum/actions)
+[![Build Status](https://github.com/GollumSF/enum/actions/workflows/php_8.1.yml/badge.svg?branch=master)](https://github.com/GollumSF/enum/actions)
+
 [![Coverage](https://coveralls.io/repos/github/GollumSF/enum/badge.svg?branch=master)](https://coveralls.io/github/GollumSF/enum)
 [![License](https://poser.pugx.org/gollumsf/enum/license)](https://packagist.org/packages/gollumsf/enum)
 [![Latest Stable Version](https://poser.pugx.org/gollumsf/enum/v/stable)](https://packagist.org/packages/gollumsf/enum)
