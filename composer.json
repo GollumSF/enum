@@ -7,7 +7,7 @@
         "java"
     ],
     "homepage" : "https://github.com/GollumSF/enum",
-    "license" : "GPL-3.0-or-later",
+    "license" : "MIT",
     "authors": [
         {
             "name": "Damien Duboeuf",
